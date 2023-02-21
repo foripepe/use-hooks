@@ -1,3 +1,9 @@
+# All of the React hooks
+
+This is the updated and extended version of https://github.com/machadop1407/react-hooks-course
+
+See also: https://www.youtube.com/watch?v=LlvBzyy-558
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
