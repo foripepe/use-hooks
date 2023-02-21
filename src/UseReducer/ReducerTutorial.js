@@ -4,6 +4,8 @@ const reducer = (state, action) => {
   switch (action.type) {
     case "INCREMENT":
       return { count: state.count + 1, showText: state.showText };
+    case "DECREMENT":
+      return { count: state.count - 1, showText: state.showText };
     case "TOGGLE_SHOW_TEXT":
       return { count: state.count, showText: !state.showText };
     default:
@@ -32,7 +34,7 @@ const ReducerTutorial = () => {
           dispatch({ type: "TOGGLE_SHOW_TEXT" });
         }}
       >
-        Increment
+        Decrement
       </button>
 
       {state.showText && <p>This is a text</p>}

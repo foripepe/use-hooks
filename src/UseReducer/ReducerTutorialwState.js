@@ -22,7 +22,7 @@ const ReducerTutorial = () => {
           setShowText(!showText);
         }}
       >
-        Increment
+        Decrement
       </button>
 
       {showText && <p>This is a text</p>}

@@ -40,8 +40,6 @@ import Documentation from './Documentation/Documentation';
  * Don't call hooks from render methods
  * Don't call hooks from server side rendering
  * Don't call hooks from tests
- * Don't call hooks from other hooks
- * Don't call hooks from custom hooks
  */
 
 function App() {

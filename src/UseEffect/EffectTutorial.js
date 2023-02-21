@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
  * Rules
  * Always use the setter for useState
  * Always put a dependency array on useEffect, useCallback, and useMemo
- * To run usuEffect only once, pass an empty array
+ * To run useEffect only once, pass an empty array
  *   To run useEffect only when a variable changes, pass that variable in the dependency array
  *   To run useEffect when a variable changes, but not on the first render, pass that variable in the dependency array and set the initial value to undefined
  * Don't depend on data you set

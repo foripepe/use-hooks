@@ -12,12 +12,17 @@ export default function CallBackTutorial() {
     [data]
   );
 
+  const test = useCallback(() => {
+    console.warn("test");
+  }, []);
+
   return (
     <div className="App">
       <Child returnComment={returnComment} />
 
       <button
         onClick={() => {
+          test();
           setToggle(!toggle);
         }}
       >

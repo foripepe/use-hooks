@@ -3,7 +3,7 @@ import { useState, useDebugValue } from 'react';
 
 const UseDebugValue = () => {
 
-  const [isOnline, setIsOnline] = useState("RR");
+  const [isOnline, setIsOnline] = useState(true);
 
   useDebugValue(isOnline ? 'Online' : 'Offline');
 
